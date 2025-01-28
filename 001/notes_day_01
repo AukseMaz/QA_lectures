@@ -33,3 +33,15 @@ https://roadmap.sh/qa
         git pull
 
 CIL - Command Line Interface
+
+Create git repo localy:
+    git init
+    git status
+    git add .
+        (git add ---all)
+    git commit -m "Commit message here"
+
+    Create Remote repo and push:
+        git remote add origin https://github.com/Dailius/demo-test.git
+        git push --set-upstream origin master
+        
