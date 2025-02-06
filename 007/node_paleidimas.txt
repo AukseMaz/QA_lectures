@@ -1,0 +1,21 @@
+/* Node yra progama, skirta paleisti js */
+/* Naršyklė(browser) bendrauja tik su serveriu, bet ne su node */
+/* Serveris, kuriame mes dirbsime su node: https://expressjs.com/ */
+/* web serveriai: https://w3techs.com/technologies/overview/web_server */
+/* Front End - pagrindinis 'bendrautojas' yra naršyklė */
+/* Back End - pagrindinis 'bendrautojas' yra serveris*/
+/* Tai, ką naršyklė perduoda į serverį, vadinasi request */
+/* Tai, ką serveris perduoda į naršyklę, vadinasi response */
+/* Visi request's ir reposnse's internete yra tekstas, perduotas per HTTP (Hypertext Transfer Protocol). */
+/* HTTP response status codes: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status */
+/* 418 klaida: https://www.google.com/teapot */
+/* Serveriui instaliuoti būtinas NPM - Node Package Manager ('bibliotekininkas') */
+/* Treminale, kai jau pasirenkame folderį su cd js020, turime suvesti node app.js ir paskui npm init */
+/* npm init sukuria package.json failą pasirinkate folderyje. Terminale pasirodys instrukcijų rinkinys, kurį galima tiek pildyti, tiek suvesti
+nmp init -y, kas reiškia, kad į viską atsakiau 'taip(yes)'*/
+/* Tada prašau npm, kad suinstaliuotų serverį, įrašydama terminale npm i express */
+/* Kai express suintaliuotas, tada js020 folderyje atsiranda failas package-lock.json. Jame jokių veiksmų natliekame */
+/* Taip pat susikūrė folderis node_modules, kuriame taip pat neatliekame jokių veiksmų */
+/* Susikūriame failą .gitignore, kuriame ignoruojame node_modules, nes į GitHub siunčiame tik tai, ką patys rašome */
+/* .gitignore įrašome node_modules/. Jei nieko nesiunčiame į Git Hub, tai tada galime nekurti šio failo */
+/* package.json reikės papildyti scripts su "start": "node --watch app.js", kad serveris restartuotų js. Naršyklę reikės refreshinti */
