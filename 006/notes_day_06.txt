@@ -1,0 +1,12 @@
+Testing Scenarios for To-Do List Application 
+https://todolist.james.am/#/
+
+TS01. Create task
+TS02. Edit task
+TS03. Delete task
+TS04. Complete/incomplete task
+TS05. Clear task
+TS06. Filter
+TS07. UI/UX
+
+Create test cases for Creat task test scenario of previous application https://todolist.james.am/#/
