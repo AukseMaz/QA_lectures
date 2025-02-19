@@ -63,9 +63,9 @@ where first_name = 'Nick';
 
 -- 10.Parašykite SQL užklausą, kuri pateiktų filmo pavadinimą, aprašymą, išleidimo metus, reitingą, kai reitingas yra PG. Naudokite lentelę „film“. 
 
-select title, description, release_year, rating 
-from film 
-where rating = 'PG'; 
+select title, description, release_year, rating
+from film
+where rating = 'PG';
 
 -- 11.Parašykite SQL užklausą, kuri ištrauktų filmo pavadinimą, nuomos trukmę, nuomos kainą, kai nuomos 
 -- kaina yra 4.99 arba mažiau, o nuomos trukmė 5 ir 6. Naudokite lentelę „film“.
@@ -78,13 +78,18 @@ where rental_rate <= 4.99 and rental_duration in (5, 6);
 -- “Trailers”. Naudokite lentelę „film“.  
 
 select * from film
+where special_features[1] = 'Trailers';
+
+-- ARBA
+
+select * from film 
 where 'Trailers' = any(special_features);
 
 -- 13.Parašykite užklausą, kuri ištraukia visus filmų pavadinimus, kurie prasideda raide „z“. Naudokite  
 -- lentelę „film“.  
 
 select * from film
-where title like '2%';
+where title like 'z%';
 
 -- 14.Parašykite SQL užklausą, kuri ištraukia filmo pavadinimą, nuomos kainą, (pavėluoto) grąžinimo  
 -- kainą, o bendra nuomos kaina ir (pavėluoto) grąžinimo kaina pateikiama naujame stulpelyje “total”.  
@@ -111,3 +116,10 @@ where return_date is null;
 
 select * from rental
 where rental_date between '2005-05-24 22:54:33' and '2005-05-24 23:05:21';
+
+select *
+from rental
+where TO_CHAR(rental_date, 'mm') = '05'
+-- where TO_CHAR(rental_date, 'dd/mm/yyyy') = '2005-05-24'
+-- where TO_CHAR(rental_date, 'dd/mm/yyyy') = '24/05/2005'
+-- where date(rental_date) = '2005-05-24'
