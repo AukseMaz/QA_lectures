@@ -41,9 +41,9 @@ select
     s.first_name, s.last_name
 from payment p
 JOIN customer c on p.customer_id = c.customer_id
-JOIN staff s on p.staff_id = s.staff_id
+JOIN staff s on c.store_id = s.store_id
 group by c.customer_id, c.first_name, c.last_name, s.first_name, s.last_name
-having sum(p.amount) between 110 and 200
+having sum(p.amount) between 150 and 200
 order by total_amount asc;
 
 -- 5. Parašykite užklausą, kuri pateikia 2006-02-14 išnuomuotų filmų pavadinimus. 
@@ -72,8 +72,8 @@ where cn.country = 'Greece';
 
 select 
     c.first_name, c.last_name, 
-    count(r.rental_id) as total_rentals
+    count(*) as total_rentals
 from customer c
 JOIN rental r on c.customer_id = r.customer_id
 group by c.customer_id, c.first_name, c.last_name
-having count(r.rental_id) > 2;
+having count(*) > 2;
