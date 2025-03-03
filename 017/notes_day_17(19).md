@@ -7,12 +7,15 @@
 E2E - tests the entire application, simulating real-world user scenarios from start to finish
 Integration testing - focuses on verifying the interaction between integrated modules, components, or services.
 
-Microservices vs. Monolith.
+Microservices (communicate between each other through an API) vs. Monolith (everything is in one package).
 
 Writing and Organizing Tests:
 https://docs.cypress.io/app/core-concepts/writing-and-organizing-tests
 
-AAA testing pattern:  
+AAA testing pattern in unit test automation:  
+    Arrange: Set up the test environment.
+    Act: Execute the code to test.
+    Assert: Verify the results. 
     https://semaphoreci.com/blog/aaa-pattern-test-automation  
 
 Cypress test isolation  
