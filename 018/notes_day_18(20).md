@@ -22,9 +22,26 @@
     })
 ```
 
+## II. What Are Selectors?
+
+Selectors are patterns used to identify and interact with elements on a webpage. They can be simple, such as targeting an element by its ID or class name, or complex, using hierarchical structures and attributes. The primary types of selectors include:
+
+1. ID Selectors: #elementId
+
+2. Class Selectors: .elementClass
+
+3. Tag Selectors: div, span, 
+
+4. Attribute Selectors: [type="text"], [href="/home"]
+
+5. Data Attribute Selectors: [data-cy="button-confirm"]
+
+6. Combinator Selectors: div > p, div + p, div ~ p
+
+7. XPath Selectors: //div[@id='elementId']
 
 
-## II. Combinator selectors
+## III. Combinator selectors
 
 Cypress selectors (including xpath):  
 https://www.cypress.io/blog/understanding-selectors-in-testing  
@@ -51,7 +68,7 @@ https://www.cypress.io/blog/understanding-selectors-in-testing
 
 <br>
 
-## III. Readme
+## IV. Readme
 
 [GitHub markdown doc](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
