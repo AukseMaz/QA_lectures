@@ -44,6 +44,7 @@ kill -9 1234
 After issuing this command, the process with PID 1234 will be terminated immediately.
 
 ## II. CI/CD
+![](/images/cicd.png) 
 
 Continuous Integration (CI):
     1. Plan: Project's requirements, features, adn roadmap
@@ -57,13 +58,13 @@ Continuous Delivery (CD):
     8. Monitor: Monitor software performance
 
 ## III. Virtual machines
-![](/pic/virtualisation.png)  
+![](/images/virtualisation.png)  
 
 * IaaS - Infrastructure as a Service  
 * PaaS - Platform as a Service  
 * SaaS - Software as a Service 
 
-![](/pic/saas.png)  
+![](/images/saas.png)  
 
 <br>
 

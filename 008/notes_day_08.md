@@ -6,3 +6,10 @@ express.js
 
 Promt to AI:
 Create a REST API with express, where I can
+
+    pm.test(
+        "Status code is 200", 
+        function () {
+            pm.response.to.have.status(200);
+        }
+    );

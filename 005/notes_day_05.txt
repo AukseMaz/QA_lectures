@@ -5,7 +5,7 @@ CLI - Command Line Interface
 
 Pradejus versijavima projekto katolage sukuria papildoma kataloga '.git'
 
-![](/pic/git_branching_image.png)
+![](/images/git_branching_image.png)
 
 ```git
     git init
