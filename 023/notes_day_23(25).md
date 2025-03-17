@@ -1,4 +1,4 @@
-## Performance Testing
+## Performance Testing (Non-Functional)
 
 1. Loading testing:  
     informacijos padavimo apkrovos didinamos palaipsniui. The goal is to ensure the app can handle a specified number of concurent users or transactions without performance degradation.
