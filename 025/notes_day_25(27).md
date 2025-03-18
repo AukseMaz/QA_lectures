@@ -46,7 +46,7 @@ https://github.com/goldbergyoni/javascript-testing-best-practices?tab=readme-ov-
 
 AI prompt:
 ```
-Attached file of react app, file name 'App.jsx'. This project created and managed with 'Vit' tool.
+Attached file of react app, file name 'App.jsx'. This project created and managed with 'Vite' tool.
 1. Write unit test for functions only located in App.jsx file. Do not test UI.
 2. Provide best practice and file structure of this project in order to understand where to add code of unit tests.
 3. How to run unit test.
