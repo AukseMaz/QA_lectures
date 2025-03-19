@@ -28,7 +28,7 @@
 
 Defect and Missing Functionality.
 
-Poziurio taskai:
+Požiūrio taškai:
 1. testuotojas
 2. programuotojas
 3. PO
@@ -40,22 +40,22 @@ Severity (ISQTB):
 3. Medium
 4. Low
 
-Pagrindiniai ir salutiniai funcionalumai.
+Pagrindiniai ir šalutiniai funkcionalumai.
 "Workaround"
 
 Critical:
-    Pagrindiniai funcionalumai, smoke & regression testai, positive tests, funkciniai testai.
+    Pagrindiniai funkcionalumai, smoke & regression testai, positive tests, funkciniai testai.
 
 High:
-    Pagrindiniai funcionalumai, positive tests, funkciniai testai.
+    Pagrindiniai funkcionalumai, positive tests, funkciniai testai.
     turi "workaround".
 
 Medium
     turi "workaround", bet atlieka vartotojas.
-    Dazniausiai kyla is salutiniu funkciju, klaidos gaunamos is negatyviu testu, UI/UX defektai
+    Dažniausiai kyla iš šalutinių funkcijų, klaidos gaunamos iš negatyviš testš, UI/UX defektai
 
 Low:
-    Dazniausiai susije su UI/UX.
+    Dažniausiai susiję su UI/UX.
 
 
 <br>
@@ -63,10 +63,10 @@ Low:
 ## IV. Bug lifecycle
 
 1. Title.
-   Title turi atsakyti i sekancius kl.:
+   Title turi atsakyti į šiuos klausimus:
     * kas atsitiko
     * kurioje vietoje
-    * prie kuriu aplinkybiu.
+    * prie kurių aplinkybių.
   
     E2E pvz.:
         "Amount of 'followers' is missing on the user page when user logged in."
