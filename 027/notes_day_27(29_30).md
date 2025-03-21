@@ -52,7 +52,7 @@ High:
 
 Medium
     turi "workaround", bet atlieka vartotojas.
-    Dažniausiai kyla iš šalutinių funkcijų, klaidos gaunamos iš negatyviš testš, UI/UX defektai
+    Dažniausiai kyla iš šalutinių funkcijų, klaidos gaunamos iš negatyvių testų, UI/UX defektai
 
 Low:
     Dažniausiai susiję su UI/UX.
@@ -78,11 +78,11 @@ Low:
         
         "Internal Server error with 200 upon sending GET '/users'"
 
-2. Steps to reproduce.
+2. Steps to reproduce (Description).
    
     E2E pvz.:
         Pre-requisites:
-        * existing account with followers
+        * Existing account with followers
 
         Steps to reproduce:
         * Navigate to User page
@@ -93,15 +93,31 @@ Low:
 
     API pvz.:
         Pre-requisites:
+        * Existing few users
 
         Steps to reproduce:
+        * Send GET request to /users
+        * Observe response body
 
-        Expected:
-        Actual:
+        Expected: list of users
+        Actual: response body message "Internal Server error" with status code 200
 
-3. Environment
+3. Environment:
+    * Chrome version, pvz.: Version 131.0.6778.205 (Official Build) (x86_64)
+    * QA environment
+    * Postman
+    * OS version...
+
 4. Build version
+    * Product version where a defect was identified.
+
 5. Severity
+    * E2E: low
+
+One problem = one registered defect.
+Cosmetic defects may be registered as one.
+
+![Bug Lifecycle](/027/images/bug_lifecycle.png)
 
 
 <br>
