@@ -44,7 +44,7 @@ kill -9 1234
 After issuing this command, the process with PID 1234 will be terminated immediately.
 
 ## II. CI/CD
-![](/images/cicd.png) 
+![CD/CI](images/cicd.png) 
 
 Continuous Integration (CI):
     1. Plan: Project's requirements, features, adn roadmap
@@ -58,23 +58,22 @@ Continuous Delivery (CD):
     8. Monitor: Monitor software performance
 
 ## III. Virtual machines
-![](/images/virtualisation.png)  
+![Virtual Machines](images/virtualisation.png)  
 
 * IaaS - Infrastructure as a Service  
 * PaaS - Platform as a Service  
 * SaaS - Software as a Service 
 
-![](/images/saas.png)  
+![SaaS](images/saas.png)  
 
 <br>
 
 ## IV. Cypress run
 
-Cypress browser: 
-https://docs.cypress.io/app/references/launching-browsers  
+[Cypress browser](https://docs.cypress.io/app/references/launching-browsers)  
 
-Cypress configuration:  
-https://docs.cypress.io/app/references/configuration
+ 
+[Cypress configuration](https://docs.cypress.io/app/references/configuration)
 
 Clean git cache:
 

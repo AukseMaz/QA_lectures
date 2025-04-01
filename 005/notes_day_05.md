@@ -5,7 +5,7 @@ CLI - Command Line Interface
 
 Pradejus versijavima projekto katolage sukuria papildoma kataloga '.git'
 
-![](/images/git_branching_image.png)
+![Branching](images/git_branching_image.png)
 
 ```git
     git init
@@ -31,7 +31,7 @@ Pradejus versijavima projekto katolage sukuria papildoma kataloga '.git'
 
 Visada sukuriama master (main) šaka
 
-Pasitreniravimui: https://learngitbranching.js.org/
+[Branching](https://learngitbranching.js.org/)
 
 ## II. Smoke test
 

@@ -8,7 +8,11 @@ WATERFALL: linijinis, lėtas
     verification: testuojame
     maintenence: priežiūra
 
+![Waterfall Cycle](images/watefall_image.png)
+
 AGILE: judrus, lankstus
+
+![Waterfall vs Agile](images/vaterfall_vs_agile_image.png)
 
 2. Test Cases (TC)
     Test Scenarios (TS)
