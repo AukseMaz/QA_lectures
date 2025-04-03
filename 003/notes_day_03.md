@@ -1,4 +1,4 @@
-1. Front-End (FE) vs Back-End (BE)
+## I. Front-End (FE) vs Back-End (BE)
 
     FE - the processes of adding functionality to graphical user interface elements to create web experiences. Focus on how websites and applications look. Languages - CSS, HTML, JavaScript. Technologies - Code editors (VS Code), Version control software (Git), Frontend Frameworks (React).
 
@@ -9,7 +9,7 @@ Client: desktop PC, notebook, tablet, mobile phone
 
 Interface: UI (user interface), API (Application Programming Interface), CLI (Command Line Interface)
 
-2. REST  API (Representational State Transfer Application Programming Interface) is a web service that allows systems to communicate over the internet using standard HTTP methods.
+## II. REST  API (Representational State Transfer Application Programming Interface) is a web service that allows systems to communicate over the internet using standard HTTP methods.
 
 HTTP methods (CRUD operations): 
 

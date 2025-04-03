@@ -1,6 +1,11 @@
-1. Software Development Life Cycle (SDLC), Software Testing Life Cycle (STLC) methodologies: Waterfall, Agile.
+## Software Development Methodologies
+Software Development Life Cycle (SDLC), 
+Software Testing Life Cycle 
 
-WATERFALL: linijinis, lėtas
+(STLC) methodologies: Waterfall, Agile.
+
+**Waterfall**: linijinis, lėtas
+    
     requirements:
         customer req (important to QA), system req, software specification req
     design: architektūra
@@ -10,7 +15,7 @@ WATERFALL: linijinis, lėtas
 
 ![Waterfall Cycle](images/watefall_image.png)
 
-AGILE: judrus, lankstus
+**Agile**: judrus, lankstus
 
 ![Waterfall vs Agile](images/vaterfall_vs_agile_image.png)
 
@@ -48,7 +53,7 @@ AGILE: judrus, lankstus
                     Status (Pass/Fail): Fail
                     Actual result: app crashed (is not available in the list)
 
-www.testsigma.com/guides/test-cases-for-manual-testing/
+[Test Cases for manual testing](www.testsigma.com/guides/test-cases-for-manual-testing/)
 
 TC mandatory fields:
     test case ID,
@@ -59,8 +64,7 @@ TC mandatory fields:
     status of the test case
 
 
-
-3. Git for team:
+Git for team:
     branching, merge, pull requests
 
 
