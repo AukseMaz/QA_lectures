@@ -28,13 +28,18 @@
     docker run --name my_cnt_nginx -d -p 8053:80 nginx
 ```
 
-*STOP* and START container:
+*STOP* and *START* container:
 ```
     ctrl + C
         <!-- or -->
     docker stop (container name, eg., determined_napier)
     docker ps
     docker start (container name, eg., determined_napier)
+```
+
+*STOP* multiple containers:
+```
+docker stop $(docker ps -q)
 ```
 
 *GET* a list of active containers:
@@ -44,11 +49,23 @@
     docker container ls 
 ```
 
-*GET* a list of all containers both active and dormant:
+*GET* a list of all containers both active and dormant (q meaning by ID):
 ```
-    docker ps -a 
+    docker ps -a
+    docker ps -aq 
         <!-- or --> 
     docker container ls -a 
+    docker container ls -aq
+```
+
+*FILTER* the same containers by parameter and display ID only:
+```
+    docker ps -aq --filter "name=nginx"
+```
+
+*RUN* all containers that have an image nginx:
+```
+    docker start $(docker ps -aq --filter "name=nginx")
 ```
 
 *DELETE* container:
@@ -57,9 +74,14 @@
     docker rm -f <container_id or container-name>
 ```
 
+*DELETE* all active containers:
+```
+    docker rm -f $(docker ps -aq --filter "name=nginx")
+```
 Localhost ip address 127.0.0.1:
 open browser 127.0.0.1:8050 or localhost:8050 
 
 ### Docker volumes
-
+```
 docker run --name my_web -v .:/usr/share/nginx/html:ro -d -p 8050:80 nginx
+```
